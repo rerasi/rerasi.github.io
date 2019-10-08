@@ -11,15 +11,45 @@
 *	Edit this section
 *
 * ======================================================= */
-body {
+/* body {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(0, 0, 0, 0.7); }
-  @media screen and (max-width: 992px) {
-    body {
-      font-size: 16px; } }
+  color: rgba(0, 0, 0, 0.7); 
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+ }
+ 
+ h1, h2, h3, h4, h5, h6, p {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+ }
+
+
+
+
+
+/* body {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+ } */
+
+
+
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 16px; } }
 
 a {
   color: #2c98f0;
@@ -34,11 +64,11 @@ a {
 p {
   margin-bottom: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Quicksand", sans-serif;
   font-weight: 500;
-  margin: 0 0 30px 0; }
+  margin: 0 0 30px 0; } */
 
 figure {
   margin-bottom: 2.5em;
@@ -50,7 +80,7 @@ figure {
     margin: 20px auto 0px auto;
     color: #b3b3b3;
     font-style: italic;
-    font-family: "Quicksand", sans-serif; }
+    font-family: 'Exo 2', sans-serif; }
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
@@ -144,7 +174,7 @@ figure {
           text-decoration: none;
           position: relative;
           padding: 10px 0;
-          font-family: "Quicksand", sans-serif;
+          font-family: 'Exo 2', sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
@@ -294,7 +324,7 @@ figure {
           margin: 0;
           padding: 0;
           color: black;
-          font-family: "Quicksand", sans-serif; }
+          font-family: 'Exo 2', sans-serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -308,7 +338,7 @@ figure {
           line-height: 1.5;
           margin-bottom: 30px;
           font-weight: 300;
-          font-family: "Quicksand", sans-serif; }
+          font-family: 'Exo 2', sans-serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
@@ -460,7 +490,7 @@ body.offcanvas {
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Lora', serif;
   background-color: #2c98f0;
   color: #fff;
   position: relative;
